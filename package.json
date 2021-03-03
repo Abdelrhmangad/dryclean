@@ -1,0 +1,32 @@
+{
+  "name": "dry-clean",
+  "version": "1.0.0",
+  "description": "For Our Dry CLean ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Reactjs",
+    "nodejs",
+    "mongoDB"
+  ],
+  "author": "abdelrhmangad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdelrhmangad/dryclean/issues"
+  },
+  "homepage": "https://github.com/Abdelrhmangad/dryclean#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^5.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
